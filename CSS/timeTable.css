@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container >p{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 23px;
+}
+table{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+th, td{
+    padding: 12px ;
+
+}
+#timeTableHr{
+    border: 2px solid black;
+}
+tr > th{
+    border-bottom: 2px solid black;
+}
+p{
+background-color: orange;
+}

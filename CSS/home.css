@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(252, 165, 0);
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+}
+.heading > img {
+  width: 120px;
+  height: 120px;
+}
+.heading > span {
+  text-align: center;
+  font-size: 40px;
+  margin: 8px;
+  position: relative;
+}
+#beta {
+  font-size: 16px;
+}
+ul .liDiv {
+  display: flex;
+  justify-content: center;
+}
+ul .liDiv li {
+  list-style: none;
+  margin: 0 10px;
+  font-size: 20px;
+  padding: 5px 12px;
+}
+ul .liDiv li a {
+  text-decoration: none;
+  color: black;
+}
+ul .liDiv li:hover{
+  background-color: white;
+  border-radius: 6px;
+}
+.firstSection {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.firstSectionGrid {
+  /* border: 2px solid black; */
+  height: 260px;
+}
+.studentProfile {
+  border: 2px solid black;
+  height: 270px;
+}
+.studentProfile p {
+  margin: 3px 16px;
+}
+.studentProfile img {
+  width: 65px;
+  margin: 6px 16px;
+}
+.timeTableAttendence {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+}
+.timeTable,
+.attendence {
+  margin: 30px;
+  border-bottom: 2px solid black;
+}
+.timeTable > p {
+  font-size: 23px;
+  text-align: center;
+  margin-top: 12px;
+}
+table {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 14px;
+  margin-bottom: 50px;
+}
+th,
+td {
+  padding: 5px 12px;
+}
+td{
+  
+}
+.attendence > p {
+  font-size: 23px;
+  text-align: center;
+  margin-top: -40px;
+}
+#timeTableTable {
+  background-color: red;
+}
+
+/* Second section starts */
+
+
+.quotes {
+  display: inline-block;
+  border: 2px solid black;
+  border-top: none;
+  width: 217px;
+  height: 336px;
+  padding-top: 12px;
+}
+
+#quotesHeading {
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.quotes > p {
+  text-align: center;
+  /* margin-top: 12px; */
+}
+#quoteWritten {
+  padding: 13px;
+  /* padding-top: -6px; */
+  border-bottom: 2px solid black;
+
+  padding-bottom: 35px;
+}
+
+#lpulive {
+  width: 50px;
+  position: relative;
+  left: -56px;
+  top: 22px;
+}
+#lpuliveWeb {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  font-size: 18px;
+  z-index: -1;
+}
+a {
+  text-decoration: none;
+  color: rgb(207, 34, 34);
+}
+a:hover{
+    color: rgb(207, 34, 34);
+}
+
+/* Third section starts */
+.thirdSection {
+  display: grid;
+  grid-template-columns: 6fr 6fr 4fr;
+  height: 120px;
+}
+.announcements {
+  /* background-color: red; */
+  border: 1px solid black;
+  border-top: none;
+}
+.announcementsHeading, .messagesHeading, .eventsHeading{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-left: 16px;
+    padding: 5px;
+}
+.messages, .upcomingEvents{
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+}
+footer{
+  background-color: rgb(252, 165, 0);
+    padding: 12px;
+    text-align: center;
+}
+footer a{
+  color: black;
+}
+footer a:hover{
+    color: black;
+}
+
+#myName{
+  position: relative;
+ left: 1130px;
+ top: 6px;
+}
